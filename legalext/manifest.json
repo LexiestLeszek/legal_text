@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "PDF Legal Analysis",
+    "version": "1.0.0",
+    "description": "A Chrome extension for legal analysis of PDF documents.",
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
